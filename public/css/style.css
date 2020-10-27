@@ -1,0 +1,106 @@
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
+br {
+  color: #FFF;
+  width: 100%;
+}
+
+.experience-table {
+  width: 500px;
+}
+
+.cartoon {
+  border-radius: 50%;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.CS {
+  text-align: center;
+}
+
+body {
+  background-color: #2F3136;
+  color: #FFF;
+  margin-bottom: 100px;
+}
+
+.home {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+.shira {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  border-radius: 50%;
+}
+
+.project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  border-radius: 50%;
+}
+
+.navbar-brand {
+  color: #FFF;
+  font-size: 1.2em;
+}
+
+.navbar {
+    background-color: #4F545C;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    letter-spacing: 5px;
+}
+.navbar-nav a {
+    color: #FFF;
+    text-decoration-color: #2F3136;
+}
+
+.navbar-nav  li a:hover {
+  background-color: #FFF;
+    color: #2F3136 !important;
+}
+
+.footer-padding {
+  width: 100%
+	padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+	text-align: center;
+  left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 6rem;
+	background-color: #4F545C;
+}
+
+.footer p {
+	margin-top: 1.5em;
+	font-size: 1em;
+  color: #FFF;
+}
+
+.footer-text {
+  margin-bottom: 1.5em;
+}

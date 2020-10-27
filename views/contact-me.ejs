@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>Orlando, Florida</p>
+    <p>(954)240-8181</p>
+    <p>sammymenaged@knights.ucf.edu</p>
+    <hr>
+    <form  action="mailto:sammymenaged@knights.ucf.edu" method="post" enctype="text/plain">
+      <label>Your Name:</label>
+      <input class="form-control" type="text" name="yourName" value=""><br>
+      <label>Your Email</label>
+      <input class="form-control" type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label>
+      <textarea class="form-control" rows="5" cols="30" name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input class="btn btn-primary" type="submit" name="">
+    </form>
+<%- include("partials/footer"); -%>
